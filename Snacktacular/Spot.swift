@@ -53,6 +53,7 @@ class Spot: NSObject, MKAnnotation {
         self.init(name: "", address: "", coordinate: CLLocationDegrees, averageRating: 0.0, numberOfReviews: 0, postingUserID: "", documentID: "")
     }
     
+    
     convenience init(dictionary: [String: Any]) {
         let name = dictionary["name"] as! String? ?? ""
         let address = dictionary["address"] as! String? ?? ""

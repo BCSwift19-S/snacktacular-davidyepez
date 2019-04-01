@@ -34,6 +34,7 @@ class SpotDetailViewController: UIViewController {
             spot = Spot()
             getLocation()
         }
+      
         
         
         //nameField.text = spot.name

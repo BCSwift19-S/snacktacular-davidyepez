@@ -6,6 +6,7 @@
 //  Copyright © 2018 John Gallaugher. All rights reserved.
 //
 
+
 import UIKit
 
 class SpotReviewsTableViewCell: UITableViewCell {
