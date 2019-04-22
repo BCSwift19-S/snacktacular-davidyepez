@@ -731,12 +731,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="meQ-ab-o7f">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="DFl-cS-rbi">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="DFl-cS-rbi">
                             <connections>
                                 <action selector="cancelButtonPressed:" destination="1Xt-9F-stX" id="qoN-gz-y8f"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="wLH-Bk-epd">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="wLH-Bk-epd">
                             <connections>
                                 <action selector="saveButtonPressed:" destination="1Xt-9F-stX" id="AgE-4D-al8"/>
                             </connections>
